@@ -23,7 +23,7 @@
     {
       "description":"Put on if you want the bot to react to people's messages.It won't react to your messages and those from creator France King.", 
       "value":"off", 
-      "required":false 
+      "required":true 
     }, 
     "AUTO_READ_MESSAGES":
     {
@@ -35,7 +35,7 @@
     {
       "description":"Your contact status will be read automatically(put on to activate or no to deactivate ; don't write in capital letter)",
       "value":"on",
-      "required":false
+      "required":true
     }, "AUTO_SAVE_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -76,14 +76,14 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with FLASH-MD-WA-BOT...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS05vU0E1ZE5pcEp3dklwMjlXSE9OcVlBT3dVUTZyQUlaaVpSRDBMaDAxbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib2QxMXNVRlVTdmJYZEVrc3BzQWRZSkdYUlFlN2FJdExaQzJWTnRGc3Jrdz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRTVNCSm1rdVBtWTdRNW94bGYvU1JJcS82Z0lIdllpcWk1ZkQ1RHpLaVdrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNRHdZRG9OaThObU8zQ21uWUJsOGUxVkdZRkFaeUdvRXBhOVY3WTJwbEVVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNLY2t6MFVuUVh4VnNpYmhRZVBjS2RXYjU5T2VYR0JSOUVCdVVvZm5mR1E9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IllTcWpMR0tsN0VZMUJPZ1JYRWcrSXdRT0Erek54NGZXd215OWVOYktERmc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0Q1VlIxdnRQQVNhVm4vd0JPUmdxeVZtL04zR1ppOFEzNi9BbHRYclVtcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaDVHQ2NFVVpyOWRZQ2ZXOVVubExLeUo0MFVvNXUxTEw0SGhsRXcxanBVWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBmRFJ1dllyU3RIYnVmbVh6d0s2TUUvNWMzb3I1Zm43NVlPQWdBV3c1MEE0UlZLTDlFSmROUDYxamJ0ZFBzdThtVzVpSnVEdkxwaTFianR4VW95RmlnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzgsImFkdlNlY3JldEtleSI6ImVXTEUyM1JTRkR4QVVXamdITzh4YnNBUTR0aEh5RGpnM3IrNXBOVkJCOE09IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiOTQ3NjA5MjEyNDdAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiRjkyOUIzOUI0RDgyNjE3NjE5OTk1M0U4RDdDMDE3MTIifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcyNTI3MjUwOH1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoidjBvMi1vbTZUeEtnUXRPNERyZ3V1USIsInBob25lSWQiOiI4NmViMDM5Yy0wZGQxLTRiZjQtYWRlYS1kYTBlMDVlYWI2NTYiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMHZGcW9OMmJ4d3JvNmQvTFdxd3JoQWxGQ1NRPSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlMcHRJVnByaHFkTVVyS2piU2x3SGVqTUE5ST0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJLRjI5R0dONSIsIm1lIjp7ImlkIjoiOTQ3NjA5MjEyNDc6NDJAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiQ2hhbW9kIC0gTUFYIPCfkqsifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0tiNjkrd0hFS21qMXJZR0dBMGdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkM0Kyt0ZnNjcngvMXhZb0pjaUVRVGV4ckx5S1NWa3NZNklnNit3REFNQjg9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlBhMGE2akF0czNIbnpUcEUybEtNZDc0eXhIOGVpeGNLbHhsOFcwSlAzeWpIZDArUlJCbFFGZDVvVm9rWFpoM2FicFRjMG1jZzg4QW1TMFczNzRFZUJ3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJhcGJCL1hOMzJYZkt2aEliN0craC90M1NlWmEyLzYzb0hVMkRMN282QURmSlpqRGpBemVXMUQ3bHp4MXhhd09ZQ0F4dGw4UzdOOS9UU1hSSS9mQ01nZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6Ijk0NzYwOTIxMjQ3OjQyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlF1UHZyWDdISzhmOWNXS0NYSWhFRTNzYXk4aWtsWkxHT2lJT3ZzQXdEQWYifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjUyNzI1MDEsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSWx4In0=",
       "required": true
 
     },
     "OWNER_NAME":
     {
 
-    "desc": "Your Name",
+    "desc": "Chamod - md",
     "required": false,
     "value": "France King"
   },
@@ -92,7 +92,7 @@
 
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":false,
-    "value": "254751284190"
+    "value": "94760921247"
   },
     "WARN_COUNT":
   {
